@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+}
+
+form {
+  margin: 0 auto;
+  width: 500px;
+  display: flex;
+  column-gap: 10px;
+}
+
+input,
+button {
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+}
+
+input {
+  width: 500px;
+  padding: 0 15px;
+  outline: none;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  background-color: #3498db;
+  color: white;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+ul {
+  list-style: none;
+  margin: 20px 10px;
+  width: 500px;
+  margin: 30px auto;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dotted lightgray;
+  padding-bottom: 7px;
+  margin-bottom: 7px;
+}
+
+
+/* 체크박스 css */
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+input {
+  accent-color: #2980b9;
+}
+/* input[type="checkbox"]:checked {
+  background-color: #43aef5;
+  border-color: #88bee0;
+}
+ */
